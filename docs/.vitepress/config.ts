@@ -51,6 +51,13 @@ export default withPwa(defineConfig({
         ],
       },
       {
+        text: '📖 博客',
+        items: [
+          { text: '🔥 小张的个人博客', link: '/blog/小张的个人博客' },
+          { text: '⭐ ruyu-blog博客', link: '/blog/ruyu-blog博客部署教程' },
+        ],
+      },
+      {
         text: '🔥 专栏',
         items: [
           { text: '🔥 前端算法', link: '/algorithm/guide/' },
@@ -80,13 +87,33 @@ export default withPwa(defineConfig({
           { text: '🎉 更新日志', link: `${github}/releases` },
         ],
       },
+      {
+        text: '🔗 友链',
+        items: [
+          { text: '🧱 友链1', link: '友链链接2' },
+          { text: '🎉 友链2', link: '友链链接2' },
+        ],
+      },
     ],
     // algolia搜索
     search: {
       provider: 'algolia',
       options: algolia,
     },
-    sidebar,
+    sidebar: {
+      // 为 /blog 路由配置侧边栏
+      '/blog/': [
+        {
+          text: '博客部署教程',
+          collapsed: true, // 使此部分可折叠
+          items: [
+            { text: '小张的个人博客', link: '/blog/小张的个人博客.md' },
+            { text: 'ruyu-blog博客部署教程', link: '/blog/ruyu-blog博客部署教程' },
+            // 这里可以添加更多的文章链接
+          ],
+        },
+      ],
+    },
     socialLinks,
   },
   head: [

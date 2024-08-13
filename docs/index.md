@@ -1,11 +1,11 @@
 ---
 layout: home
 
-title: ChoDocs
+title: Hyde Docs
 titleTemplate: 逆水行舟，不进则退
 
 hero:
-  name: ChoDocs
+  name: Hyde Docs
   text: "Front-end learning"
   tagline: |
     🔥 学如逆水行舟，不进则退！
