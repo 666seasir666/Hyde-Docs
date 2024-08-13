@@ -1,4 +1,13 @@
 # ruyu-blog部署详细教程
+------
+
+## 版权声明[](https://wiki.onedayxyy.cn/blog#版权声明)
+
+> 本着开源共享、共同学习的精神：
+>
+> 本文是在 博主[Ruyu](https://www.kuailemao.xyz/) 文章：《项目部署文档》https://www.kuailemao.xyz/article/48 基础上增加了自己实践过程的一些细节，转载无需和我联系，但请注明文章来源。如果侵权之处，请联系博主进行删除，谢谢~
+
+------
 
 ## 环境准备
 ## 1.1.安装Docker
