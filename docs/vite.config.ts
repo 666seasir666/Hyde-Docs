@@ -13,6 +13,7 @@ const require = createRequire(import.meta.url)
 export default defineConfig(async () => {
   return <UserConfig>{
     server: {
+      open: true, // 开发服务器启动时自动打开浏览器
       hmr: {
         overlay: false,
       },
