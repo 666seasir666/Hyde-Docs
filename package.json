@@ -1,7 +1,7 @@
 {
   "name": "chodocs",
   "type": "module",
-  "version": "0.2.3",
+  "version": "0.0.1",
   "private": true,
   "packageManager": "pnpm@9.5.0",
   "description": "前端内容网站，包括学习路线、知识体系",
