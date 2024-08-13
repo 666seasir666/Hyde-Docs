@@ -138,7 +138,3 @@ Thank you to all the people who already contributed to my project!
 ## 📄 License
 
 [MIT License](https://github.com/chodocs/chodocs/blob/main/LICENSE) © 2022-PRESENT [Choi Yang](https://github.com/Chocolate1999)
-=======
-# Hyde-Docs
-知识库网站
->>>>>>> 96eeb1413df9d634767c2ce440f8c37fc9ff866f
